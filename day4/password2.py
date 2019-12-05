@@ -20,38 +20,30 @@
 # 111122 meets the criteria (even though 1 is repeated more than twice, it still contains a double 22).
 
 import numpy as np
+from collections import Counter
 
 test = 0
-part2 = 0
+part2 = 1
 
 if test:
-    range0 = 234400
-    range1 = 234500
+    lower = 234400
+    upper = 234500
 else:
-    range0 = 278384
-    range1 = 824795
+    lower = 278384
+    upper = 824795
 
-# Part 1
-counter = 0
-for i in range(range0, range1+1):
-
+def isvalid1(i):
     i = [int(x) for x in str(i)] 
     decrease_ind = np.where(np.subtract(i[1:], i[:-1])< 0)[0] #number of digits decrease
     same_ind = np.where(np.subtract(i[1:], i[:-1])== 0)[0] #duplicate is present
-    if len(decrease_ind) == 0 and len(same_ind) >= 1:
-        if part2:
-            if len(same_ind) == 1:
-                counter+=1
-                #print(same_ind)
-            elif len(np.where(np.subtract(same_ind[1:], same_ind[:-1])>1)[0])>0:
-                if len(same_ind) <= 3:
-                    counter +=1
-                elif sum(same_ind) !=7:
-                    #print(i)
-                    #print('more: ', same_ind)
-                    counter+=1
-        else:
-            counter +=1
-print('Number of possible passwords: ', counter)
+    return len(decrease_ind) == 0 and len(same_ind) >= 1
 
+def isvalid2(i):
+    i = [int(x) for x in str(i)]
+    decrease_ind = np.where(np.subtract(i[1:], i[:-1])< 0)[0] #number of digits decrease
+    double_ind = any(count == 2 for count in Counter(i).values())
+    return len(decrease_ind) == 0 and double_ind
 
+# Part 1
+print('Part 1 no. of passwords: ', sum(1 for i in range(lower, upper+1) if isvalid1(i)))
+print('Part 2 no. of passwords: ', sum(1 for i in range(lower, upper+1) if isvalid2(i)))
