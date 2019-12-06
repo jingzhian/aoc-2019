@@ -5,6 +5,7 @@
 
 #def count_orbit(planet, centers, orbiting):
 
+# missions 1 functions
 def get_indirect(i, orbiting, centers, orbit_no):
     if centers[i] in orbiting:
         return get_indirect(orbiting.index(centers[i]), orbiting, centers, orbit_no+1)
@@ -17,6 +18,7 @@ def get_orbits(tokens):
     total_no = sum([get_indirect(i, orbiting, centers, 1) for i in range(len(centers))])
     return total_no
 
+# mission 2 functions
 def get_path(orbit_path, orbiting, centers):
     if orbit_path[-1] in orbiting:
         orbit_path.append(centers[orbiting.index(orbit_path[-1])])
@@ -57,7 +59,7 @@ if run_mission1:
     orbit_no = get_orbits(tokens)
     print('total orbits: ', orbit_no)
 
-## Mission 2 - Orbital Transfer
+## Mission 2 - Find number of Orbital Transfers
 if run_mission2:
     startpt = ['YOU']
     endpt = ['SAN']
