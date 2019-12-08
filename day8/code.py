@@ -34,5 +34,5 @@ for layer in layers:
 
 for i in range(0, len(image),25):
     line = image[i:i+24]
-    line = [' ' if x == 0 else str(x) for x in line ]
-    print(line, '\n') 
+    line = [' ' if x == 0 else '█' for x in line ]
+    print(''.join(line)) 

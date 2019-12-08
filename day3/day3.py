@@ -77,8 +77,7 @@ plt.plot(x3, y3, 'x')
 plt.plot(wire_meet[meet_mindistind][0], wire_meet[meet_mindistind][1], 'x')
 plt.savefig('plot.png')
 
-
 # Get the length of wires at intersections
 wire_len = [wire1_map.index(point) + wire2_map.index(point) for point in wire_meet]
 wire_len_min = min(wire_len)
-print('Minimum wire len :', wire_len_min)
+print('Minimum wire length :', wire_len_min)
