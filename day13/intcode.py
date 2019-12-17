@@ -1,5 +1,4 @@
 class Computer:
-class Computer:
 
     def __init__(self, program, inputs = []):
         self.memory = program.copy()

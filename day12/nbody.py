@@ -124,7 +124,22 @@ def check_repeat(moons, step, repeat_step):
         else:
             repeat_step[2] = 0
     return repeat_step
-
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "cwd": "${fileDirname}",
+        }
+    ]
+}
 # Get input
 with open('test2.txt') as file:
     scans = file.read().splitlines()

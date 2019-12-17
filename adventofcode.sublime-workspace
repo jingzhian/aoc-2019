@@ -1,0 +1,398 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"initz",
+				"initz"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"vy",
+				"vy"
+			],
+			[
+				"other",
+				"otherasteroids"
+			],
+			[
+				"AmpC",
+				"AmpC"
+			],
+			[
+				"Inco",
+				"Intcomp"
+			],
+			[
+				"indire",
+				"indirect_no"
+			],
+			[
+				"i",
+				"if\tIf Condition"
+			],
+			[
+				"wire_",
+				"wire_meet"
+			],
+			[
+				"wire_cor",
+				"wire_coords"
+			],
+			[
+				"m",
+				"memory"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "## Stoichiometry\n# List of reastions it can perform : puzzle input\n# - Every reaction turns some quantities of specific input chemicals into some quantity of an output chemical\n# - Almost every chemical is produced by exactly one reaction; \n# - the only exception, ORE, is the raw material input to the entire process and is not produced by a reaction.\n\n# Integer multiples of chemicals must be used\n# It is ok to have left over chemicals\n\n## Mission 1: what is the minimum amount of ORE required\n\ntestsol = [31, 165, 13312, 180697, 2210736]\n\n ",
+			"file": "day14/stoichiometry.py",
+			"file_size": 543,
+			"file_write_time": 132207754175019402,
+			"settings":
+			{
+				"buffer_size": 544,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"PdfLaTeX"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"build",
+				"Disable/Enable buildview for this window"
+			],
+			[
+				"buildview",
+				"Disable/Enable buildview for this window"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/jzan/Desktop/adventofcode",
+		"/home/jzan/Desktop/adventofcode/day14"
+	],
+	"file_history":
+	[
+		"/home/jzan/Desktop/adventofcode/day14/input.txt",
+		"/home/jzan/Desktop/adventofcode/day14/test5.txt",
+		"/home/jzan/Desktop/adventofcode/day14/test4.txt",
+		"/home/jzan/Desktop/adventofcode/day14/test3.txt",
+		"/home/jzan/Desktop/adventofcode/day14/test1.txt",
+		"/home/jzan/Desktop/adventofcode/day14/test2.txt",
+		"/home/jzan/Desktop/adventofcode/day14/etst2.txt",
+		"/home/jzan/Desktop/adventofcode/day12/test1.txt",
+		"/home/jzan/Desktop/adventofcode/day12/input.txt",
+		"/home/jzan/Desktop/adventofcode/day12/test2.txt",
+		"/home/jzan/Desktop/adventofcode/day12/nbody.py",
+		"/home/jzan/Desktop/adventofcode/day12/test.txt",
+		"/home/jzan/Desktop/adventofcode/day11/intcode.py",
+		"/home/jzan/Desktop/adventofcode/day11/police.py",
+		"/home/jzan/Desktop/adventofcode/day11/input.txt",
+		"/home/jzan/Desktop/adventofcode/day11/test1.txt",
+		"/home/jzan/Desktop/adventofcode/day10/monitoring.py",
+		"/home/jzan/Desktop/adventofcode/day10/input.txt",
+		"/home/jzan/Desktop/adventofcode/day10/test5.txt",
+		"/home/jzan/Desktop/adventofcode/day10/text4.txt",
+		"/home/jzan/Desktop/adventofcode/day10/test3.txt",
+		"/home/jzan/Desktop/adventofcode/day10/test1.txt",
+		"/home/jzan/Desktop/adventofcode/day10/test2.txt",
+		"/home/jzan/Desktop/adventofcode/day9/boost.py",
+		"/home/jzan/Desktop/adventofcode/day7/circuit.py",
+		"/home/jzan/SynologyDrive/dropbox-personal/00 IEEE-EMBS/2020 Student Rep/00-2020-student-rep-doc/embc-student-rep-guide/embc-studrep-guide.tex",
+		"/home/jzan/Desktop/adventofcode/day9/input.txt",
+		"/home/jzan/Desktop/adventofcode/day8/code.py",
+		"/home/jzan/Desktop/adventofcode/day8/input.txt",
+		"/home/jzan/Desktop/adventofcode/day3/day3.py",
+		"/home/jzan/Desktop/adventofcode/day7/input.txt",
+		"/home/jzan/Desktop/adventofcode/day7/circuit-chi.py",
+		"/home/jzan/Desktop/adventofcode/day6/orbit.py",
+		"/home/jzan/Desktop/adventofcode/day6/orbitmap.txt",
+		"/home/jzan/Desktop/adventofcode/day6/orbitmap-test2.txt",
+		"/home/jzan/Desktop/adventofcode/day6/orbitmap-test.txt",
+		"/home/jzan/Desktop/adventofcode/orbit.py",
+		"/home/jzan/Desktop/adventofcode/day4/password.py",
+		"/home/jzan/Desktop/adventofcode/day4/password2.py",
+		"/home/jzan/Desktop/adventofcode/day5/day5.py",
+		"/home/jzan/Desktop/adventofcode/day5/input.txt",
+		"/run/user/1000/gvfs/smb-share:server=nas.local,share=backup/jzan/cloud-sync/000 Project PCLC/13 Other Analysis/BJA - Emery/BJAforArxiv.tex",
+		"/home/jzan/Desktop/adventofcode/day4/day5/AC.py",
+		"/home/jzan/Desktop/adventofcode/day5/input",
+		"/home/jzan/Desktop/adventofcode/day2/day2.py",
+		"/home/jzan/Desktop/adventofcode/day3/day3a.py",
+		"/home/jzan/Desktop/adventofcode/day3/wire1.txt",
+		"/home/jzan/Desktop/adventofcode/day3/wire2.txt"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"203",
+			"224"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "day14/stoichiometry.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 544,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								544,
+								544
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 207.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 227.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 238.0
+	},
+	"pinned_build_system": "",
+	"project": "adventofcode.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"app.t",
+				"application.tex"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 156.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

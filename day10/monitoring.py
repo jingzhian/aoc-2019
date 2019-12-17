@@ -42,7 +42,7 @@ def get_ordered(center, asteroids):
     vaporder = []
     asteroids.remove(center)
     # get all distances and angles
-    for i, a in enumerate(asteroids):
+    for a in asteroids:
         # Flip coordinate
         y_dist = a[0]-center[0]
         x_dist = -a[1]+center[1]
@@ -52,22 +52,16 @@ def get_ordered(center, asteroids):
             angle = 360 + angle
         else:
             angle = angle
-    # order asteroids with the same angle
+        # order asteroids with the same angle
         while angle in angles:
-            #print(angle)
-            #print(angles)
-            #print(dist)
-            #print(dists)
-            #print(angles.index(angle))
-            #sys.exit(0)
             if dist < dists[angles.index(angle)]:
                 angles[angles.index(angle)] = angles[angles.index(angle)] + 360
             else:
                 angle = angle + 360
         angles.append(angle)
         dists.append(dist)
-        vaporder.append(a)
-    angles, vaporder = zip(*sorted(zip(angles, vaporder)))
+        #vaporder.append(a)
+    angles, vaporder = zip(*sorted(zip(angles, asteroids)))
     return angles, vaporder
 
 ## Mission 1 - find best asteroid
